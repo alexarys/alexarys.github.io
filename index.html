@@ -20,15 +20,31 @@
         h1 { 
             color: rgb(190, 178, 237);
         }
+       
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
 
-        </style>
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+tr:hover {background-color: coral;}
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
 </head>
 <body>
 
         <img src="https://cdn.discordapp.com/attachments/1029181738041225289/1042550869440331808/IMG_20221108_102715_043.jpg" alt="foto de uma pessoa usando jaqueta branca e vermelha com cabelos castanhos" width=200">
         <div class="imagem-texto">
         <td> Sobre mim!</td>     
-<hr>
+<hr width="500px" align="left">
 
     </div>
 <div class="paragrafos">
@@ -52,11 +68,17 @@ Também sou bissexual!</strong> adoro conhecer pessoas novas e fazer novas desco
     </ol>
 
     <h2>index</h2>
-    <ol>
-        <li>habilidades</li> 
-        <li>links</li>
-        <li>sobre mim</li>        
-    </ol>
+    <table>
+        <tr>
+        <tr>
+          <td>sobre mim</td>
+          <td>habilidades</tr>
+        </tr>
+        <tr>
+          <td>links</td>
+          <td>e...fim!</td>
+        </tr>
+      </table>
 
 </body>
 </html>
