@@ -1,5 +1,18 @@
 .paragrafos {
     width: 500px;
     padding: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.habilidades {
+    background-color: rgb(222, 238, 248);
+    width: 400px;
+    text-align: left;
+    margin-bottom: 0%;
+}
+.imagem-texto {
+    text-align: justify;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(141, 205, 248)
 }
